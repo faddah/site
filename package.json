@@ -1,0 +1,27 @@
+{
+  "name": "pdxnodeweb",
+  "version": "0.0.1",
+  "description": "PDXNode Web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PDXNode/site.git"
+  },
+  "author": "PDXnode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PDXNode/site/issues"
+  },
+  "homepage": "https://github.com/PDXNode/site",
+  "dependencies": {
+    "hapi": "^6.7.1"
+  },
+  "subdomain": "pdxnodeweb",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
